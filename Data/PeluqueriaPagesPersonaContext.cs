@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using PeluqueriaStar.Models;
 
     public class PeluqueriaPagesPersonaContext : DbContext
-    {
+      {
         public PeluqueriaPagesPersonaContext (DbContextOptions<PeluqueriaPagesPersonaContext> options)
             : base(options)
         {
@@ -23,6 +23,4 @@ using PeluqueriaStar.Models;
         public DbSet<PeluqueriaStar.Models.HorarioEstelista>? HorarioEstelista { get; set; }
 
         public DbSet<PeluqueriaStar.Models.ServiciosOfrecer>? ServiciosOfrecer { get; set; }
-
-       
     }

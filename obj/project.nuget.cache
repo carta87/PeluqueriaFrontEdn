@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CVbVJEUq7516zX8NK7scbr50GlWSUdToJqMf9YP/49mFF1Y2Cqe1Hx3lZAzgFOEeAQkFH20FWzp81YgaZEIqew==",
+  "dgSpecHash": "bW/a4Ubtth82Zpl4TyACOLxlBqRDEMnc/b9oY4kyJFLxtYvEgttm37MXjm4HsOlP0KEef2tACsOh9fyzx2gljQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\MisionTic\\MisionTic ciclo3\\programacionCodigo\\proyectosClase\\PeluqueriaStar\\PeluqueriaStar.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\MisionTic\\MisionTic ciclo3\\proyecto equipo\\PeluqueriaStar\\PeluqueriaStar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

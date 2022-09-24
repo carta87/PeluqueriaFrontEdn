@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace PeluqueriaStar.Migrations
 {
     [DbContext(typeof(PeluqueriaPagesPersonaContext))]
-    [Migration("20220921230643_Inicial")]
+    [Migration("20220924140531_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -101,9 +101,8 @@ namespace PeluqueriaStar.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("Categoria")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Categoria")
+                        .HasColumnType("int");
 
                     b.Property<string>("Comentario")
                         .IsRequired()

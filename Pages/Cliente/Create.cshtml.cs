@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using PeluqueriaStar.Models;
 
+
 namespace PeluqueriaStar.Pages_Cliente
 {
     public class CreateModel : PageModel
@@ -25,12 +26,11 @@ namespace PeluqueriaStar.Pages_Cliente
 
         [BindProperty]
         public Cliente Cliente { get; set; } = default!;
-        
-
-        // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
+           // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
-          if (!ModelState.IsValid || _context.Cliente == null || Cliente == null)
+            
+            if (!ModelState.IsValid || _context.Cliente == null || Cliente == null)
             {
                 return Page();
             }

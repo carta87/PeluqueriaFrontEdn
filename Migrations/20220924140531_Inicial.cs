@@ -88,7 +88,7 @@ namespace PeluqueriaStar.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Categoria = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Categoria = table.Column<int>(type: "int", nullable: false),
                     Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ValorServicio = table.Column<int>(type: "int", nullable: false),
                     ValorAplicarDescuento = table.Column<int>(type: "int", nullable: false),

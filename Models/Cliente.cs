@@ -21,5 +21,7 @@ namespace PeluqueriaStar.Models
         public HorarioEstelista? HorarioEstelista { get; set; }
 
         public ServiciosOfrecer?  ServiciosOfrecer { get; set; }
+
     }
+
 }
