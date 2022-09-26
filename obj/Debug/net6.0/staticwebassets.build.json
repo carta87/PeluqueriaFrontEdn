@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cTFuGo2gMdGGSlk8nfITxdEufGQrclwZz8ZSuLXAnjM=",
+  "Hash": "FAsboLF/8KrYmAbZcRBnQ5uzUKbyG+fzjdCtDb79Acc=",
   "Source": "PeluqueriaStar",
   "BasePath": "_content/PeluqueriaStar",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\USUARIO\\Documents\\MisionTic\\MisionTic ciclo3\\proyecto equipo\\PeluqueriaStar\\wwwroot\\img\\imagenHome.jpg",
+      "SourceId": "PeluqueriaStar",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USUARIO\\Documents\\MisionTic\\MisionTic ciclo3\\proyecto equipo\\PeluqueriaStar\\wwwroot\\",
+      "BasePath": "_content/PeluqueriaStar",
+      "RelativePath": "img/imagenHome.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\imagenHome.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USUARIO\\Documents\\MisionTic\\MisionTic ciclo3\\proyecto equipo\\PeluqueriaStar\\wwwroot\\img\\Logopeluqueria.png",
+      "SourceId": "PeluqueriaStar",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USUARIO\\Documents\\MisionTic\\MisionTic ciclo3\\proyecto equipo\\PeluqueriaStar\\wwwroot\\",
+      "BasePath": "_content/PeluqueriaStar",
+      "RelativePath": "img/Logopeluqueria.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logopeluqueria.png"
     },
     {
       "Identity": "C:\\Users\\USUARIO\\Documents\\MisionTic\\MisionTic ciclo3\\proyecto equipo\\PeluqueriaStar\\wwwroot\\img\\paisaje.jpg",

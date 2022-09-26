@@ -8,7 +8,6 @@ namespace PeluqueriaStar.Models
     public class Cliente : Persona
     {
         public string Dirrecion { get; set; }  = string.Empty;
-        
         public int  Edad { get; set; }
 
         public Genero Genero { get; set; }
@@ -21,7 +20,5 @@ namespace PeluqueriaStar.Models
         public HorarioEstelista? HorarioEstelista { get; set; }
 
         public ServiciosOfrecer?  ServiciosOfrecer { get; set; }
-
     }
-
 }
